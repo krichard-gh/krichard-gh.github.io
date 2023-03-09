@@ -21,6 +21,7 @@ a {
 
 #main-content {
   display: flex;
+  min-width: 600px;
   flex-direction: column;
   margin-top: 5em;
   margin-left: 5em;
@@ -49,7 +50,7 @@ a {
 }
 
 .bg-color::before {
-  background-color: #ececec;
+  background-color: #ececdc;
 }
 
 .bg-color::after {
